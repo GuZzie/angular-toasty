@@ -308,6 +308,18 @@
   bottom: 12px;
   left: 12px;
 }
+#toasty.toasty-position-top-center {
+  top: 12px;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0%);
+          transform: translate(-50%, 0%);
+}
+#toasty.toasty-position-bottom-center {
+  bottom: 12px;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0%);
+          transform: translate(-50%, 0%);
+}
 #toasty .toast {
   cursor: pointer;
   margin: 0 0 6px;
